@@ -8,12 +8,12 @@ module.exports = {
         publicPath: '/dist/',
         filename: 'build.js'
     },
-    plugins: [
-        new webpack.ProvidePlugin({
-            $: 'jquery',
-            jQuery: 'jquery'
-        })
-    ],
+    // plugins: [
+    //     new webpack.ProvidePlugin({
+    //         $: 'jquery',
+    //         jQuery: 'jquery'
+    //     })
+    // ],
     resolveLoader: {
         root: path.join(__dirname, 'node_modules'),
     },
